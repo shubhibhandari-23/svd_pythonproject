@@ -155,7 +155,7 @@ def bookin():
         screen5.resizable(width=False, height=False)
         screen5.title("Booking")
         screen5.configure(background="grey")
-        Label(screen5, text="Booking", font=("bold", 30), bg="red").pack()
+        Label(screen5, text="Booking", font=("bold", 30), bg="pink").pack()
 
         if (vehicle.get() == "car"):  # this is used to check which vehicle we have choose
 
